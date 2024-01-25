@@ -5,7 +5,7 @@ while (isNaN(year) || year === null) {
 }
 
 if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-  alert(`${year} is a leap year.`);
+  document.write(`${year} is a leap year.`);
 } else {
-  alert(`${year} is not a leap year.`);
+  document.write(`${year} is not a leap year.`);
 }
